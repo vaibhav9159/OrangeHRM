@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="106.951" tests="17" errors="0" skipped="6" failures="2">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.275-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vsrivastava/eclipse-workspace/OrangeHRMTestAutomation"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vsrivastava/eclipse-workspace/OrangeHRMTestAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_275-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/v4/0527jpr55zs845l17gg4y38xch0m8y/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/vsrivastava/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf13833145430513953902.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vsrivastava/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="user.home" value="/Users/vsrivastava"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vsrivastava"/>
+    <property name="java.class.path" value="/Users/vsrivastava/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_275"/>
+    <property name="java.ext.dirs" value="/Users/vsrivastava/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="/Users/vsrivastava/eclipse-workspace/OrangeHRMTestAutomation/EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="validateLoginPageTitle" classname="com.hrm.qa.tests.LoginPageTest" time="0.052"/>
+  <testcase name="validateLoginButtonIsPresentAndEnabled" classname="com.hrm.qa.tests.LoginPageTest" time="0.481"/>
+  <testcase name="enterCredentials" classname="com.hrm.qa.tests.LoginPageTest" time="4.313"/>
+  <testcase name="validateLeavePageTabClickAndTitle" classname="com.hrm.qa.tests.LeavePageTest" time="0.086"/>
+  <testcase name="selectLeaveMemeberCheckbox" classname="com.hrm.qa.tests.LeavePageTest" time="2.117"/>
+  <testcase name="validateHomePageTitle" classname="com.hrm.qa.tests.HomePageTest" time="3.358"/>
+  <testcase name="validateAdminHeadeClickAndTitle" classname="com.hrm.qa.tests.HomePageTest" time="6.145"/>
+  <testcase name="validatePimPageTabClickAndTitle" classname="com.hrm.qa.tests.HomePageTest" time="6.122"/>
+  <testcase name="validateLeavePageTabClickAndTitle" classname="com.hrm.qa.tests.HomePageTest" time="5.108">
+    <failure message="expected:&lt;PIM&gt; but was:&lt;Leave&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<PIM> but was:<Leave>
+	at com.hrm.qa.tests.HomePageTest.validateLeavePageTabClickAndTitle(HomePageTest.java:71)
+]]></failure>
+    <system-out><![CDATA[onTestSuccess validatePimPageTabClickAndTitle
+2022-10-08 13:22:28 TRACE WebSocket08FrameEncoder:131 - Encoding WebSocket Frame opCode=8 length=26
+2022-10-08 13:22:30 INFO  HomePageTest:61 - chrome Broswer is successfully launched
+Before navigating to : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+navigated to : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+before clicking on webelement value : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> name: username]
+after clicking on webelement  value : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> name: username]
+before clicking on webelement value : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> name: password]
+after clicking on webelement  value : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> name: password]
+before clicking on webelement  : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> xpath: //*[@type='submit']]
+after clicking on webelement  : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> xpath: //*[@type='submit']]
+onTestStart 
+before clicking on webelement  : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> xpath: //*[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]
+after clicking on webelement  : [[ChromeDriver: chrome on MAC (11576c3dbe51d853e7e8c3812c13643c)] -> xpath: //*[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 60579
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 08, 2022 1:22:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 08, 2022 1:22:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 105, so returning the closest version found: a no-op implementation
+Oct 08, 2022 1:22:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 105.
+Oct 08, 2022 1:22:30 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="validateRecruitmentPageTitle" classname="com.hrm.qa.tests.RecruitmentTest" time="2.068"/>
+  <testcase name="tearDown" classname="com.hrm.qa.tests.RecruitmentTest" time="2.076">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.hrm.qa.tests.RecruitmentTest.tearDown(RecruitmentTest.java:99)
+</failure>
+    <system-out><![CDATA[onTestSuccess validateRecruitmentPageTitle
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="launchApplication" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[2022-10-08 13:22:51 DEBUG PackageRelationshipCollection:309 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-10-08 13:22:51 DEBUG PackageRelationshipCollection:309 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2022-10-08 13:22:51 DEBUG PackageRelationshipCollection:309 - Parsing relationship: /_rels/.rels
+2022-10-08 13:22:51 TRACE XBeanDebug:196 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2022-10-08 13:22:51 TRACE XBeanDebug:196 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2022-10-08 13:22:51 TRACE XBeanDebug:196 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2022-10-08 13:22:51 TRACE XBeanDebug:196 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2022-10-08 13:22:51 TRACE XBeanDebug:196 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2022-10-08 13:22:51 TRACE XBeanDebug:231 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2022-10-08 13:22:51 TRACE XBeanDebug:206 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2022-10-08 13:22:51 TRACE XBeanDebug:231 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2022-10-08 13:22:51 TRACE XBeanDebug:206 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2022-10-08 13:22:51 TRACE XBeanDebug:231 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2022-10-08 13:22:51 TRACE XBeanDebug:206 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2022-10-08 13:22:51 TRACE XBeanDebug:231 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2022-10-08 13:22:51 TRACE XBeanDebug:206 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2022-10-08 13:22:51 TRACE XBeanDebug:231 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2022-10-08 13:22:51 TRACE XBeanDebug:206 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle themefd26doctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle stylesheet5d8bdoctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctstylesheet4257type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctfonts6623type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctfont14d8type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctfills2c6ftype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctfill550ctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctborders0d66type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctborderf935type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctcellxfs1322type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctxf97f7type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctcellstylexfsa81ftype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctdxfsb26atype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle cttablestyles872ftype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle sstf81fdoctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctsst44f3type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctrsta472type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle workbookec17doctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctworkbook83c3type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctsheets49fdtype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctsheet4dbetype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle strelationshipid1e94type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle worksheetf539doctype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctworksheet530dtype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctsheetdata8408type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctrowdd39type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctcell842btype
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle stcellrefe4e0type
+2022-10-08 13:22:51 TRACE XBeanDebug:935 - Resolving type for handle ctcols627ctype
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle ctcola95ftype
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle cthyperlinks6416type
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle cthyperlink0c85type
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle stxstringf179type
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle stcelltypebf95type
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle stcellstylexfid70c7type
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle stnumfmtid76fbtype
+2022-10-08 13:22:52 TRACE XBeanDebug:935 - Resolving type for handle ctworkbookpr03a5type
+]]></system-out>
+  </testcase>
+  <testcase name="launchApplication" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="enterCandidateCredentials" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[onTestStart 
+]]></system-out>
+  </testcase>
+  <testcase name="enterCandidateCredentials" classname="com.hrm.qa.tests.RecruitmentTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[onTestStart 
+]]></system-out>
+  </testcase>
+</testsuite>

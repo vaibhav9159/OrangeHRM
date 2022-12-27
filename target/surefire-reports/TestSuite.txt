@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 106.951 s <<< FAILURE! - in TestSuite
+validateLeavePageTabClickAndTitle(com.hrm.qa.tests.HomePageTest)  Time elapsed: 5.108 s  <<< FAILURE!
+java.lang.AssertionError: expected:<PIM> but was:<Leave>
+	at com.hrm.qa.tests.HomePageTest.validateLeavePageTabClickAndTitle(HomePageTest.java:71)
+
+tearDown(com.hrm.qa.tests.RecruitmentTest)  Time elapsed: 2.076 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrm.qa.tests.RecruitmentTest.tearDown(RecruitmentTest.java:99)
+
